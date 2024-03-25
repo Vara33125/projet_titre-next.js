@@ -10,23 +10,23 @@ export default function index() {
             <Image src="/img/logo.png" alt="logo"width={150} height={150} />    
         </div>
         <div id="form" class=" bg-white bg-opacity-75 ">
-          <div class="m-2 p-2">
+          <div class="m-2 p-2 formView">
             <form action="/process_inscription" method="post">
-              <div class="d-flex flex-lg-row smview  w-100">
+              <div class="d-flex flex-lg-row smview columnView w-100">
                 <div class="col-md-4 col-lg-4 row-cols-sm-1 pe-md-1 my-1 d-flex flex-column input">
                   <label for="firstName"> Prénom</label>
                   <input type="text" id="firstName" />
                 </div>
-                <div class="col-md-4 col-lg-4 row-cols-sm-1 my-1 px-md-1 d-flex flex-column input">
+                <div class="col-md-4 col-lg-4  row-cols-sm-1 my-1 px-md-1 d-flex flex-column input">
                   <label for="lastname"> Nom</label>
                   <input type="text" id="lastname" name="lastName" />
                 </div>
-                <div class="col-md-4 col-lg-4 row-cols-sm-1  ps-md-1 my-1 d-flex flex-column input">
+                <div class="col-md-4 col-lg-4 row-cols-sm-1    ps-md-1 my-1 d-flex flex-column input">
                   <label for="phoneNumber"> Numéro de téléphone</label>
                   <input type="number" id="phoneNumber" name="phoneNumber" />
                 </div>
               </div>
-              <div class="d-flex flex-lg-row smview  w-100">
+              <div class="d-flex flex-lg-row smview columnView  w-100">
                 <div class=" col-md-6 row-cols-sm-1 pe-md-1 d-flex flex-column input">
                   <label for="email"> Email</label>
                   <input type="email" name="email" id="email" />
@@ -40,7 +40,7 @@ export default function index() {
                   />
                 </div>
               </div>
-              <div class="d-flex flex-lg-row smview  w-100">
+              <div class="d-flex flex-lg-row smview columnView w-100">
                 <div class=" col-lg-4 row-cols-sm-1 pe-md-1 my-1 d-flex flex-column input">
                   <label for="adress"> Adresse</label>
                   <input type="text" id="adress" />
@@ -55,8 +55,8 @@ export default function index() {
                 </div>
               </div>
               <div class=" w-100 ">
-                <div class="d-flex flex-column mt-2">
-                    <div className="d-flex flex-row align-items-center mb-2">
+                <div class="d-flex flex-column  mt-2">
+                    <div className="d-flex flex-row align-items-center columnView mb-2">
 
                     <label>
                     {" "}

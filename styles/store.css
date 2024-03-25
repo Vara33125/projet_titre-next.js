@@ -3,10 +3,16 @@
     
 }
 
-@media screen and (maxwidht : 748px) {
+@media screen and (max-width : 768px) {
 
-    #store1, #store2, #store3 {
-        flex-direction: column;
+    .columnView {
+        display: block !important;
+    }
+    #stores{
+        width: 100% !important;
+    }
+    .imageView{
+        height: 250px !important;
     }
     
 }

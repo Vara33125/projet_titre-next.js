@@ -12,7 +12,7 @@ export default function index() {
         className="border-1 border-black bg-white bg-opacity-75 rounded centralForm"
         
       >
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center formInput2">
           <div id="centraldiv" className="w-50 d-flex justify-content-center flex-column">
             <div>
               <h2 className="mt-5 mb-2 fw-bolder text-center ">
@@ -45,7 +45,7 @@ export default function index() {
                 id="RemenberMe"
               
               />
-              <label className="fw-bold mt-2" >
+              <label className="fw-bold mt-3" >
                 Se souvenir de moi</label
               >
               
@@ -57,8 +57,8 @@ export default function index() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-center">
-          <h4 className="mt-5  mb-4 fw-bolder h2"> Nouveau client? 
+        <div id='new' className="d-flex justify-content-center">
+          <h4   className="mt-5  mb-4 fw-bolder h2"> Nouveau client? 
           </h4>
         </div>
         <div className="d-flex justify-content-center">

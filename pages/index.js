@@ -2,10 +2,12 @@ import React from "react";
 import Link from "next/link";
 import articles from "./api/articles";
 import { handler } from "./api/articles";
+
 export default function index({ article }) {
   return (
     <div>
-      <div className="text-center h1"> Nos produits</div>
+      
+      <div className="text-center h1 pt-5"> Nos produits</div>
       <div>
         {" "}
         {article.map((article) => (

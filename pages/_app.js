@@ -4,6 +4,7 @@ import '../styles/container.css'
 import '../styles/login.css'
 import '../styles/store.css'
 import '../styles/signup.css'
+import '../styles/about_us.css'
 
 
 

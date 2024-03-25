@@ -1,5 +1,5 @@
 main{
-   
+    
     background-image: url(/img/magasin4.jpg);
     
   }
@@ -21,3 +21,24 @@ main{
     background-color: #506c64 !important;
     color: #eee0cb !important;
   }
+
+@media screen and (max-width: 768px) {
+    #bgForm{
+        width: 100%;
+    }
+    #new{
+        height: 120px;
+    }
+    h4{
+        display: block !important
+    }
+    main{
+        height: 800px!important;
+    }
+   #centraldiv {
+    width: 230px !important;;
+   }
+   main{
+    max-height: 90vh;
+   }
+}

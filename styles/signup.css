@@ -50,41 +50,17 @@
   footer {
     height: 100px;
   }
-  @media screen and (min-width: 700px) {
-    h1 {
-      display: block;
-      margin: 0 auto;
-    }
-    .burgerMenu {
-      display: none;
-    }
-    h3 {
-      margin-left: 3%;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .smview {
-      display: flex !important;
-      flex-direction: column !important;
-    }
-    label {
-      margin: 2px;
-    }
-    input {
-      margin: 2px;
-    }
-    #form,
-    #logo {
-      width: 130% !important;
-    }
-    h4 {
-      display: none;
-    }
-    main {
-      height: 140vh;
-    }
-    .input {
-      padding: 0px !important;
-    }
-  }
   
+  @media screen and (max-width: 768px) {
+    main{
+      width: 100vw!important;
+      height : 180vh !important
+
+    };
+    .columnView{
+      display: block;
+    }
+    #form , #logo{
+      width: 100%;
+    }
+  }

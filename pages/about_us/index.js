@@ -14,7 +14,7 @@ export default function index() {
         <section className=" container-fluid d-flex justify-content-center mt-5">
             <div id="grille" className=" w-75 d-flex flex-column align-items-center container-fluid">
             <section id="section1" className="d-flex">
-                <div className="col-md-7 border border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-5">
+                <div className="col-md-7 border border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-md-5">
                      <p className="fw-bold h3 mb-4 ">
                     Introduction
                     </p>
@@ -22,11 +22,11 @@ export default function index() {
                 Bienvenue chez Canap'Plus, votre destination ultime pour le confort et l'élégance. En tant que spécialistes des canapés haut de gamme, nous nous engageons à offrir à nos clients une expérience unique et luxueuse. Découvrez notre histoire, notre gamme de produits et notre engagement envers la satisfaction de nos clients. 
                     </p>
                 </div>
-                <div className="col-md-5 border border-black border-opacity-25 m-1">
+                <div className="col-md-5   border border-black border-opacity-25 m-1">
                      <Image className="img-fluid" src={"/img/presentation/collection-outils-charpentier.jpg"} height = {100} width={600} alt="outils-cordonnier" / ></div>
             </section>
             <section id="section2" className="d-flex">
-                <div className="order-md-2 col-md-7 border border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-5">
+                <div className="order-md-2 col-md-7 border  border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-md-5 px-sm-1">
                      <p className="fw-bold h3 mb-4 ">
                         Notre histoire
                     </p>
@@ -38,8 +38,8 @@ export default function index() {
                      <Image className="img-fluid" src="/img/presentation/gros-plan-cordonnier-coupe-cuir.jpg" width={600} height={100} alt="main-cordonnier"  /></div>
             </section>
             <section id="section3" className="d-flex">
-                <div className="order-md-1 col-md-7 border border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-5">
-                     <p className="fw-bold h3 mb-4 ">
+                <div className="order-md-1 col-md-7 border border-black border-opacity-25 m-1 d-flex flex-column align-items-center justify-content-center px-md-5">
+                     <p className="fw-bold h3 mb-4  ">
                         Notre engagement
                     </p>
                     <p className="h5 fw-normal texte">
