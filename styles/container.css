@@ -1,0 +1,23 @@
+.greenColor {
+    background-color: #506c64 ! important;
+}
+.champMenu {
+    background-color: #eee0cb ! important;
+}
+.champColor{
+    color : #eee0cb ! important;
+}
+.mc{
+    margin-left: 25%  !important;
+}
+
+
+.boutonMenu:hover{
+    background-color: #506c64;
+    color : #eee0cb;
+ 
+}
+
+
+
+

@@ -1,0 +1,12 @@
+#stores {
+    width: 70% !important;
+    
+}
+
+@media screen and (maxwidht : 748px) {
+
+    #store1, #store2, #store3 {
+        flex-direction: column;
+    }
+    
+}

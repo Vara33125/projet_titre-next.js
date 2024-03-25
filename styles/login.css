@@ -1,0 +1,23 @@
+main{
+   
+    background-image: url(/img/magasin4.jpg);
+    
+  }
+
+.centralForm{
+    width: 70%;
+    height: 76vh;
+}
+.formInput{
+    background-color: #eee0cb;
+    height: 50px !important;
+}
+.submitButton{
+    background-color: #506c64 !important;
+    color: #eee0cb !important;
+    width: 9rem ! important;
+}
+.btn-colorGreen{
+    background-color: #506c64 !important;
+    color: #eee0cb !important;
+  }
