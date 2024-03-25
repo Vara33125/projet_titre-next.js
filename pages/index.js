@@ -1,50 +1,22 @@
-import React from "react";
-import Link from "next/link";
-import articles from "./api/articles";
-import { handler } from "./api/articles";
 
-export default function index({ article }) {
+import axios from "axios";
+
+export default function Home({data}) {
   return (
-    <div>
-      
-      <div className="text-center h1 pt-5"> Nos produits</div>
-      <div>
-        {" "}
-        {article.map((article) => (
-          <p> {article.name}</p>
-        ))}{" "}
-      </div>
-    </div>
+    <>
+      <h1>ezae</h1>
+    </>
   );
 }
-export async function getServerSideProps() {
-  const req = {
-    method: "GET",
-  };
 
-  const response = { articles: null };
-  const convertiString = (articles) => {
-    return articles.map((article) => ({
-      ...article,
-      _id: article._id.toString(),
-    }));
+export async function getStaticProps() {
+  const { data } = await axios.get("http://localhost:3000/api/articles"); // POUR CALL URL GET
+  // await axios.post("http://localhost:3000/api/article"); // POUR CALL URL POST
+  // await axios.put("http://localhost:3000/api/article"); // POUR CALL URL POST
+  //await axios.delete("http://localhost:3000/api/article"); // POUR CALL URL POST
+  return {
+    props: {
+      data,
+    },
   };
-  try {
-    const res = {
-      status: () => {},
-      json: (data) => {
-        response.articles = convertiString(data);
-      },
-    };
-    await handler(req, res);
-
-    return {
-      props: { response },
-    };
-  } catch (error) {
-    console.log(error);
-    return {
-      props: { article: [] },
-    };
-  }
 }

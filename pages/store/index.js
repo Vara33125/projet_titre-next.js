@@ -18,7 +18,7 @@ export default function index() {
                 width={700}
                 height={400}
                 alt="store1"
-                className="w-100 imageView"
+                className="w-100 imageView "
               />
             </div>
             <div className="col-md-5 order-md-2 border border-black border-opacity-25 m-4">
